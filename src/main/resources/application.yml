@@ -1,0 +1,12 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  datasource:
+   url: jdbc:postgresql://localhost:5432/sweater #messages
+   username: postgres
+   password: postgres
+   driver-class-name: org.postgresql.Driver
+  mustache:
+    charset=utf-8:
